@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "description": "校园智评推广网站图片配置文件",
+  "images": {
+    "hero-dashboard": {
+      "filename": "hero-dashboard.png",
+      "alt": "校园智评系统主界面展示",
+      "description": "系统主页面，展示数据概览和核心功能入口",
+      "category": "hero",
+      "size": "large",
+      "dimensions": "600x400"
+    },
+
+    "screenshot-dashboard": {
+      "filename": "screenshot-dashboard.png",
+      "alt": "数据概览界面截图",
+      "description": "管理员数据概览界面，显示班级排行榜、统计图表等",
+      "category": "screenshot",
+      "size": "large",
+      "dimensions": "800x600"
+    },
+    "screenshot-class": {
+      "filename": "screenshot-class.png",
+      "alt": "班级管理界面截图",
+      "description": "班级管理界面，展示年级、班级列表和学生信息",
+      "category": "screenshot",
+      "size": "medium",
+      "dimensions": "400x300"
+    },
+    "screenshot-score": {
+      "filename": "screenshot-score.png",
+      "alt": "评分管理界面截图",
+      "description": "评分管理界面，显示评分项目设置和记录管理",
+      "category": "screenshot",
+      "size": "medium",
+      "dimensions": "400x300"
+    },
+    "screenshot-user": {
+      "filename": "screenshot-user.png",
+      "alt": "用户管理界面截图",
+      "description": "用户管理界面，展示不同角色用户和权限设置",
+      "category": "screenshot",
+      "size": "medium",
+      "dimensions": "400x300"
+    },
+    "screenshot-poster": {
+      "filename": "screenshot-poster.png",
+      "alt": "海报管理界面截图",
+      "description": "海报管理界面，展示班级海报上传和展示功能",
+      "category": "screenshot",
+      "size": "medium",
+      "dimensions": "400x300"
+    },
+    "tech-architecture": {
+      "filename": "tech-architecture.png",
+      "alt": "技术架构图",
+      "description": "系统技术架构示意图，展示前后端技术栈",
+      "category": "diagram",
+      "size": "medium",
+      "dimensions": "400x400"
+    }
+  },
+  "categories": {
+    "hero": {
+      "name": "首页展示图",
+      "description": "网站首页主要展示图片"
+    },
+    "icon": {
+      "name": "功能图标",
+      "description": "各功能模块的图标"
+    },
+    "screenshot": {
+      "name": "系统截图",
+      "description": "系统各界面的实际截图"
+    },
+    "diagram": {
+      "name": "技术图表",
+      "description": "技术架构和流程图表"
+    }
+  },
+  "placeholders": {
+    "enabled": true,
+    "service": "https://via.placeholder.com",
+    "fallback_color": "2c3e50",
+    "text_color": "ffffff"
+  },
+  "upload_guidelines": {
+    "formats": ["PNG", "JPG", "JPEG", "WebP"],
+    "max_size": "2MB",
+    "recommended_sizes": {
+      "hero": "1200x800",
+      "screenshot": "800x600",
+      "icon": "64x64",
+      "diagram": "600x600"
+    },
+    "naming_convention": "使用英文小写字母和连字符，如：hero-dashboard.png"
+  }
+} 
